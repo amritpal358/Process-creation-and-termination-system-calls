@@ -1,0 +1,6 @@
+Documentation for Process Creation and termination of System calls
+
+In this exercise using fork() system call I created childprocess then firstly child process read csv file and then it iterate every row and every column one by one and then taking sum of all the values and then take average of the 4 column values and print the average and after the child process is completed it call exit() system call which call after the successfull compliting of the child process which exit the child process and then waitpid() system call help to ewait for sum time and then call the parent process.
+
+Error handling:
+1)Converting int average into float value.
